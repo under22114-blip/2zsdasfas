@@ -1,0 +1,45 @@
+{
+  "name": "roblox-community-wealth-tracker",
+  "version": "1.0.0",
+  "description": "A Chrome extension that tracks Roblox community member wealth based on limited item ownership",
+  "main": "popup.js",
+  "scripts": {
+    "build": "echo 'No build process needed for Chrome extension'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "roblox",
+    "community",
+    "wealth-tracker",
+    "limited-items",
+    "rap-value"
+  ],
+  "author": "Roblox Community Wealth Tracker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/roblox-community-wealth-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/roblox-community-wealth-tracker/issues"
+  },
+  "homepage": "https://github.com/yourusername/roblox-community-wealth-tracker#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "manifest": {
+    "version": 3,
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://www.roblox.com/*",
+      "https://economy.roblox.com/*"
+    ]
+  }
+}
